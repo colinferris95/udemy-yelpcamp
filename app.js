@@ -11,9 +11,9 @@ app.get("/", (req,res)=>{
 
 app.get("/campgrounds", (req,res)=>{
 	let campgrounds = [
-		{name: "123 creek", image: "https://pixabay.com/get/57e2d54b4852ad14f6da8c7dda793f7f1636dfe2564c704c732973d5974ecc5a_340.jpg"},
-		{name: "456 hill", image: "https://pixabay.com/get/57e1d14a4e52ae14f6da8c7dda793f7f1636dfe2564c704c732973d5974ecc5a_340.jpg"},
-		{name: "789 rest", image: "https://pixabay.com/get/57e8d0424a5bae14f6da8c7dda793f7f1636dfe2564c704c732973d5974ecc5a_340.jpg"}
+		{name: "123 creek", image: "https://www.photosforclass.com/download/pixabay-1149402?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2F57e1d14a4e52ae14f6da8c7dda793f7f1636dfe2564c704c732973dd904ecd50_960.jpg&user=Free-Photos"},
+		{name: "456 hill", image: "https://www.photosforclass.com/download/pixabay-1189929?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2F57e1dd4a4350a514f6da8c7dda793f7f1636dfe2564c704c732973dd904ecd50_960.jpg&user=Noel_Bauza"},
+		{name: "789 rest", image: "https://www.photosforclass.com/download/pixabay-1851092?webUrl=https%3A%2F%2Fpixabay.com%2Fget%2F57e8d0424a5bae14f6da8c7dda793f7f1636dfe2564c704c732973dd904ecd50_960.jpg&user=Pexels"}
 	];
 
 
