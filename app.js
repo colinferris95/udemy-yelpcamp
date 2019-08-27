@@ -22,6 +22,18 @@ app.get("/campgrounds", (req,res)=>{
 });
 
 
+app.post("/campgrounds", (req,res)=>{
+
+
+	res.send("campgrounds post route");
+
+	//get form data, and add object to campgrounds array
+	//redirect 
+
+
+});
+
+
 app.listen(3000, ()=>{
 	console.log("server has started");
 });
